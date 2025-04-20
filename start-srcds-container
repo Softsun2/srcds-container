@@ -1,0 +1,3 @@
+#!/bin/sh
+
+docker run -it -p 27015:27015/udp -p 27015:27015 -v srcds:/home/steam/srcds srcds bash
